@@ -32,7 +32,7 @@ source ./venv/bin/activate
 3. ติดตั้ง แพ็กเกจตาม requirements. txt
 
 ```shell
-pip install -r requirements. txt
+pip install -r requirements.txt
 ```
 
 4. รัน python เพื่อเริ่ม scap
