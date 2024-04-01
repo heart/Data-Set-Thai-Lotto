@@ -34,8 +34,7 @@ def getArchivePage(url):
 
         return ArchivePage(archiveList=lotto, nextPageUrl=nextPageUrl)
     else:
-        print(f"Failed to retrieve the page. Status code: {
-              response.status_code}")
+        print(f"Failed to retrieve the page. Status code: {response.status_code}")
 
 
 def getDate(url):
@@ -150,8 +149,7 @@ def scappingLotto(url):
                 i = i+1
             return row
     else:
-        print(f"Failed to retrieve the page. Status code: {
-              response.status_code}")
+        print(f"Failed to retrieve the page. Status code: {response.status_code}")
 
 
 columns = ['date', 'prize_1st', 'prize_pre_3digit',
